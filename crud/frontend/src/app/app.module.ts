@@ -11,7 +11,8 @@ import { NavComponent } from './components/template/nav/nav.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
-import {MatCardModule} from '@angular/material/card'
+import {MatCardModule} from '@angular/material/card';
+import { ProductsCrudComponent } from './views/products-crud/products-crud.component'
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import {MatCardModule} from '@angular/material/card'
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    ProductsCrudComponent
   ],
   imports: [
     BrowserModule,
