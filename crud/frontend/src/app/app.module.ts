@@ -12,7 +12,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import {MatCardModule} from '@angular/material/card';
-import { ProductsCrudComponent } from './views/products-crud/products-crud.component'
+import { ProductsCrudComponent } from './views/products-crud/products-crud.component';
+import { RedDirective } from './directives/red.directive'
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ProductsCrudComponent } from './views/products-crud/products-crud.compo
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProductsCrudComponent
+    ProductsCrudComponent,
+    RedDirective
   ],
   imports: [
     BrowserModule,
