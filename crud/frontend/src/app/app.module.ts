@@ -13,7 +13,8 @@ import {MatListModule} from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import {MatCardModule} from '@angular/material/card';
 import { ProductsCrudComponent } from './views/products-crud/products-crud.component';
-import { RedDirective } from './directives/red.directive'
+import { RedDirective } from './directives/red.directive';
+import { ForDirective } from './directives/for.directive'
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { RedDirective } from './directives/red.directive'
     NavComponent,
     HomeComponent,
     ProductsCrudComponent,
-    RedDirective
+    RedDirective,
+    ForDirective
   ],
   imports: [
     BrowserModule,
