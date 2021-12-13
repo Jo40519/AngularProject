@@ -26,4 +26,8 @@ export class ProductService {
   create(product: Product): Observable<Product> {
   return this.httpClient.post<Product>(this.baseUrl, product)
   }
+
+  delete(){
+    return this.httpClient.delete<Product>(this.baseUrl,)
+  }
 }
