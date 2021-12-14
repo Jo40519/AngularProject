@@ -2,7 +2,7 @@ import { Product } from './../products.model';
 import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../product.service';
-import { Validators } from '@angular/forms';
+import { FormGroup, Validators, FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-product-create',
@@ -15,12 +15,17 @@ product: Product = {
   name: '',
   price: 0
 }
-  public excluir = true;
+
   constructor(private productService: ProductService,
-    private router: Router) { }
+    private router: Router,
+    ) { }
 
 
   ngOnInit(): void {
+  
+  }
+
+  configurarFormulario(){
   
   }
 

@@ -34,6 +34,26 @@
       "name": "Produto Teste",
       "price": 125.98,
       "id": 7
+    },
+    {
+      "name": "",
+      "price": 0,
+      "id": 8
+    },
+    {
+      "name": "",
+      "price": 0,
+      "id": 9
+    },
+    {
+      "name": "",
+      "price": 0,
+      "id": 10
+    },
+    {
+      "name": "Geladeira",
+      "price": "1200.00 R$",
+      "id": 11
     }
   ]
 }

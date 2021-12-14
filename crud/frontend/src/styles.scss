@@ -10,3 +10,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .v-middle{
 vertical-align: middle;
 }
+
+.input-invalido{
+    border-left: 5px solid #a94442 !important
+}
+
+.input-valido{
+    border-left: 5px solid #42A948 !important
+}
+
+.required::after {
+    content: " * ";
+    font-size: 1.2em;
+    color: #dc3545 !important;
+}
