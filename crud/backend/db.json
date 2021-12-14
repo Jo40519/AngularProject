@@ -54,6 +54,11 @@
       "name": "Geladeira",
       "price": "1200.00 R$",
       "id": 11
+    },
+    {
+      "name": "Notebook",
+      "price": "1229.56 R$",
+      "id": 12
     }
   ]
 }

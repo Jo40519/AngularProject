@@ -30,4 +30,8 @@ export class ProductService {
   delete(){
     return this.httpClient.delete<Product>(this.baseUrl,)
   }
+
+  read(): Observable<Product[]> {
+    return this.httpClient.get<Product[]>(this.baseUrl)
+  }
 }
