@@ -1,11 +1,10 @@
+import { ProductRead2Component } from './product-read2.component';
 import { Product } from './../products.model';
 import { DataSource } from '@angular/cdk/collections';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { map } from 'rxjs/operators';
 import { Observable, of as observableOf, merge } from 'rxjs';
-
-// TODO: Replace this with your own data model type
 
 // TODO: replace this with real data from your application
 const EXAMPLE_DATA: Product[] = [
@@ -96,7 +95,6 @@ export class ProductRead2DataSource extends DataSource<Product> {
       switch (this.sort?.active) {
         case 'name': return compare(a.name, b.name, isAsc);
         case 'id': return compare(+a.id, +b.id, isAsc);
-        case 'price': return compare(+a.price, +b.price, isAsc);
         default: return 0;
       }
     });
