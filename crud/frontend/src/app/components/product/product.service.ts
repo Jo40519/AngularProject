@@ -27,8 +27,8 @@ export class ProductService {
   return this.httpClient.post<Product>(this.baseUrl, product)
   }
 
-  delete(){
-    return this.httpClient.delete<Product>(this.baseUrl,)
+  delete(): Observable<Product>{
+    return this.httpClient.delete<Product>(this.baseUrl)
   }
 
   read(): Observable<Product[]> {
