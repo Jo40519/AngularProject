@@ -11,7 +11,7 @@
       "price": 5000
     },
     {
-      "name": "Produto Teste",
+      "name": "Produto Teste  testado",
       "price": 125.98,
       "id": 4
     },
@@ -56,9 +56,14 @@
       "id": 12
     },
     {
-      "id": 14,
-      "name": "mesa",
-      "price": "200"
+      "id": 15,
+      "name": "Teste",
+      "price": "1244"
+    },
+    {
+      "id": 16,
+      "name": "Teste",
+      "price": "100.00"
     }
   ]
 }
