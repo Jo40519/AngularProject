@@ -12,7 +12,7 @@ export class ProductUpdateComponent implements OnInit {
 
 
   product: Product = {
-    id: 0,
+    id:0,
     name: '',
     price: 0
   }
@@ -23,12 +23,7 @@ export class ProductUpdateComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    
-    // const id = this.route.snapshot.paramMap.get('id'); 
-    // this.productService.readById(id).subscribe((product) => {
-    //   this.product = product;
-    //   console.log(id)
-    // })
+  this.readById()
   }
 
   updateProduct(): void{
@@ -37,6 +32,13 @@ export class ProductUpdateComponent implements OnInit {
       this.router.navigate(['/products'])
       console.log(this.product)
     })
+  }
+
+  readById(){
+    const id = this.route.snapshot.paramMap.get('id') 
+    this.productService.readById(`${id}`).subscribe( product => {
+      this.product = product;
+    });
   }
 
 
