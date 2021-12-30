@@ -5,3 +5,5 @@ Utilizando os comandos CLI do Angular, "ng new nome-do-projeto", "ng g c", ng g 
 
 Vendo os principais conceitos das rotas, Event Binding, Binging de Atributo.
 
+# Finalizado
+
