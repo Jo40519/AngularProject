@@ -11,41 +11,6 @@
       "price": 5000
     },
     {
-      "name": "Produto Teste  testado",
-      "price": 125.98,
-      "id": 4
-    },
-    {
-      "name": "Produto Teste",
-      "price": 125.98,
-      "id": 5
-    },
-    {
-      "name": "Produto Teste",
-      "price": 125.98,
-      "id": 6
-    },
-    {
-      "name": "Produto Teste",
-      "price": 125.98,
-      "id": 7
-    },
-    {
-      "name": "",
-      "price": 0,
-      "id": 8
-    },
-    {
-      "name": "",
-      "price": 0,
-      "id": 9
-    },
-    {
-      "name": "",
-      "price": 0,
-      "id": 10
-    },
-    {
       "name": "Geladeira",
       "price": "1200.00 ",
       "id": 11
@@ -56,14 +21,14 @@
       "id": 12
     },
     {
-      "id": 15,
-      "name": "Teste",
-      "price": "1244"
+      "id": 13,
+      "name": "Microondas",
+      "price": "799"
     },
     {
-      "id": 16,
-      "name": "Teste",
-      "price": "100.00"
+      "id": 14,
+      "name": "Guarda Roupa  Vendido",
+      "price": "599"
     }
   ]
 }
