@@ -7,3 +7,6 @@ Vendo os principais conceitos das rotas, Event Binding, Binging de Atributo.
 
 # Finalizado
 
+  <img align="center" alt="jogo-angular" height="200" width="190" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
+
+
