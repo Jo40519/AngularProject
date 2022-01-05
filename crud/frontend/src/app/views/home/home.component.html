@@ -5,4 +5,20 @@
     <mat-card-subtitle class="subtitle">
         Sistema para exemplificar a construção de um cadastro em Angular
     </mat-card-subtitle>
+    <mat-card class="example-card">
+        <mat-card-subtitle>Aplicação Finalizada</mat-card-subtitle>
+        <mat-card-title> Aplicação pronta para uso.</mat-card-title>
+        <mat-card-content>
+          <p>Esse card é usado pra exemplificar um carregamento no footer</p>
+          <p></p>
+        </mat-card-content>
+        <mat-divider inset></mat-divider>
+        <mat-card-actions>
+          <button mat-button (click)="navigateToProductCreate()">Facebbok</button>
+          <button mat-button>SHARE</button>
+        </mat-card-actions>
+        <mat-card-footer>
+          <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+        </mat-card-footer>
+      </mat-card>
 </mat-card>

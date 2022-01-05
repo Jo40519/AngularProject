@@ -1,34 +1,44 @@
 {
   "products": [
     {
+      "id": 1,
+      "name": "Notebook Samsung ",
+      "price": "5000"
+    },
+    {
       "id": 2,
-      "name": "Notebook MAC pro",
-      "price": 12000
+      "name": "Geladeira",
+      "price": "10000"
     },
     {
       "id": 3,
-      "name": "Samsung s20 ",
-      "price": 5000
-    },
-    {
-      "name": "Geladeira",
-      "price": "1200.00 ",
-      "id": 11
-    },
-    {
-      "name": "Notebook",
-      "price": "1229.56 ",
-      "id": 12
-    },
-    {
-      "id": 13,
       "name": "Microondas",
-      "price": "799"
+      "price": "699"
     },
     {
-      "id": 14,
-      "name": "Guarda Roupa  Vendido",
-      "price": "599"
+      "id": 4,
+      "name": "Máquina de Lavar",
+      "price": "2000"
+    },
+    {
+      "id": 5,
+      "name": "Celular Iphone",
+      "price": "2999"
+    },
+    {
+      "id": 6,
+      "name": "Sofá ",
+      "price": "1000"
+    },
+    {
+      "id": 7,
+      "name": "Mesa de Jantar",
+      "price": "569.90"
+    },
+    {
+      "id": 8,
+      "name": "Escrivaninha ",
+      "price": "400.99"
     }
   ]
 }

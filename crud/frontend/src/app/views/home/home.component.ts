@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { HeaderService } from 'src/app/components/template/header/header.service';
 
@@ -8,7 +9,7 @@ import { HeaderService } from 'src/app/components/template/header/header.service
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private headerService: HeaderService) { 
+  constructor(private headerService: HeaderService, private router: Router) { 
     headerService.headerData = {
       title: 'Inicio',
       icon: 'home',
@@ -19,4 +20,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  navigateToProductCreate(){
+    this.router.navigate(['product/create'])
+  }
 }
