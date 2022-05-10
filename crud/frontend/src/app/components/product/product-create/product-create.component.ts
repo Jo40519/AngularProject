@@ -12,7 +12,7 @@ import { FormGroup, Validators, FormBuilder } from '@angular/forms';
 export class ProductCreateComponent implements OnInit {
 
 
-  public formCreate: FormGroup;
+  public formCreate!: FormGroup;
   
   
 product: Product = {
