@@ -39,6 +39,11 @@
       "id": 8,
       "name": "Escrivaninha ",
       "price": "400.99"
+    },
+    {
+      "id": 9,
+      "name": "",
+      "price": 0
     }
   ]
 }

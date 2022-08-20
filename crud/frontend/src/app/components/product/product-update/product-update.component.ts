@@ -23,7 +23,7 @@ export class ProductUpdateComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-  // this.readById()
+  this.readById()
   }
 
   updateProduct(): void{
