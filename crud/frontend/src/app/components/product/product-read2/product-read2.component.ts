@@ -3,6 +3,7 @@
 // import { MatPaginator } from '@angular/material/paginator';
 // import { MatSort } from '@angular/material/sort';
 // import { MatTable } from '@angular/material/table';
+// import { ProductRead2DataSource, } from './product-read2-datasource';
 
 // @Component({
 //   selector: 'app-product-read2',
@@ -13,6 +14,7 @@
 //   @ViewChild(MatPaginator) paginator!: MatPaginator;
 //   @ViewChild(MatSort) sort!: MatSort;
 //   @ViewChild(MatTable) table!: MatTable<Product>;
+//   dataSource: ProductRead2DataSource;
 
 //   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
 //   displayedColumns = ['id', 'name', 'price'];

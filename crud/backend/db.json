@@ -1,11 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Notebook Samsung ",
-      "price": "5000"
-    },
-    {
       "id": 2,
       "name": "Geladeira",
       "price": "10000"
